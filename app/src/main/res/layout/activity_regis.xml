@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regis"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Register"
+        android:textColor="@color/Putih"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/nama_reg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edittxtshadow"/>
+
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:hint="@string/Email"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edittxtshadow"/>
+
+    <EditText
+        android:id="@+id/password_reg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:hint="Passoword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittxtshadow"/>
+
+    <EditText
+        android:id="@+id/alamat_reg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Address"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittxtshadow"
+        />
+
+    <EditText
+        android:id="@+id/telp_reg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Phone"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittxtshadow"
+        android:inputType="phone"/>
+    <ProgressBar
+        android:id="@+id/prog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/reg2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_login"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="Register"
+        android:textColor="@color/Putih"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/backlog"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Back To Login"
+        android:textColor="@color/Putih"
+        android:background="@drawable/btn_login"
+        />
+
+
+</LinearLayout>

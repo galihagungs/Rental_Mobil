@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftarmobil">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/Biru"
+            app:popupTheme="@style/Theme.AppCompat.Light.NoActionBar"
+            app:titleTextColor="@color/Putih">
+
+            <TextView
+                android:id="@+id/back_daftar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:text="Back"
+                android:textColor="@color/Putih" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablayout"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="5dp"
+            app:tabIndicatorColor="@color/Putih"
+            android:background="@color/Biru"
+            app:tabTextColor="@color/Putih"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

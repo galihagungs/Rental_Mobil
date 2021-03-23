@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Putih">#ffff</color>
+    <color name="Tembus">#00000000</color>
+    <color name="Biru">#008EFF</color>
+    <color name="New_Biru">#d5dbff</color>
+    <color name="hitam">#000000</color>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarSewa"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="balik"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu2"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Sewa Anda"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_menu"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Mobil  :"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/mobilsewa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Tanggal Sewa  :"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/ambilsewa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Tanggal Kembali  :"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="20dp"/>
+                <TextView
+                    android:id="@+id/kembalisewa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Cancel Order"
+        android:onClick="cancel"
+        android:background="@drawable/button_awal"/>
+
+</LinearLayout>

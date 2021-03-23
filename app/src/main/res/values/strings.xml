@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Rental</string>
+    <string name="member"><b>Not a Member?</b> </string>
+    <string name="signup"><u>SignUP</u></string>
+    <string name="pass"><i>Forgot Password?</i></string>
+    <string name="Regis"><b>Register</b></string>
+
+    <string name="Avanza">\t\tToyota Avanza \n \t\t\t\t\t1496 cc \n \t4 Silinder Segaris \n \t\t\t\t\t103HP \n \t\t\t Tahun 2019 \n Mulai IDR 300.000/Hari</string>
+    <string name="Avanza1">\t\tToyota Avanza \n \t\t\t\t\t\t\t\t1496 cc \n \t\t\t\t\t4 Silinder Segaris \n \t\t\t\t\t\t\t\t95 hp \n \t\t\t\t\t\t Tahun 2020 \n\t\t\t\t\t\t\t Manual \n \t\t\t\t\t\t\t\t7 Kursi</string>
+    <string name="Xpander">\t\tMitsubishi Xpander \n \t\t\t\t\t\t\t\t1499 cc \n \t\t\t\t\t\t\t\t4 Silinder Segaris \n \t\t\t\t\t\t\t\t103HP \n \t\t\t\t\t\t Tahun 2019 \n Mulai IDR 300.000/Hari</string>
+    <string name="Xpander1">\t\t\t\tMitsubishi Xpander \n \t\t\t\t\t\t\t\t1499 cc \n \t\t\t\t\t\t\t\t4 Silinder Segaris \n \t\t\t\t\t\t\t\t103HP \n \t\t\t\t\t\t Tahun 2019 \n \t\t\t\t\t\t\t\t\tMatic \n \t\t\t\t\t\t\t\t7 Kursi</string>
+    <string name="Alphard">\t\tToyota Alphard 2.5 G A\T \n \t\t\t\t\t\t\t\t2494 cc \n \t\t\t\t\t4 Silinder Segaris \n \t\t\t\t\t\t\t\t150 HP \n \t\t\t\t\t\t Tahun 2019 \n \t\t\t\t\t\t\t\t\tMatic \n \t\t\t\t\t\t\t\t7 Kursi</string>
+    <string name="pajero">\t\tMitsubishi Pajero Sport Exceed 4x2 MT \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t2477 cc \n \t\t\t\t\t\t\t\t\t\t\t6 Silinder Segaris \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t134HP \n \t\t\t\t\t\t\t\t\t\t\t\t Tahun 2019 \n \t\t\t\t\t\t\t\t\t\t\t\t\t\tManual \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t7 Kursi</string>
+
+
+    <string name="Email">Autorentcar@gmail.com</string>
+    <string name="title_activity_daftar_mobil">DaftarMobil</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="Spek">Spesifikasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Mobil">
+        <item>Avanza</item>
+        <item>Alphard</item>
+        <item>Xpander</item>
+        <item>Pajero</item>
+    </string-array>
+    <string-array name="opsipengemudi">
+        <item>YA</item>
+        <item>TIDAK</item>
+    </string-array>
+
+</resources>

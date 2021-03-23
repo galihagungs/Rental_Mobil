@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/menu"
+                    android:elevation="16dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Halo,"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:id="@+id/nama_user"
+                            android:layout_width="254dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="20dp"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/logout"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="50dp"
+                            android:src="@drawable/logout"
+                            android:background="@color/Putih"></ImageButton>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/menu2"
+                            android:elevation="30dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/prof"
+                                android:layout_width="60dp"
+                                android:layout_height="43dp"
+                                android:background="@drawable/menu2"
+                                android:src="@drawable/profile"></ImageButton>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Profile"
+                                android:textSize="8dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/menu2"
+                            android:elevation="30dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/daftarmobil"
+                                android:layout_width="60dp"
+                                android:layout_height="43dp"
+                                android:background="@drawable/menu2"
+                                android:src="@drawable/mobil"></ImageButton>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Daftar Mobil"
+                                android:textSize="8dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/menu2"
+                            android:elevation="30dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/sewa"
+                                android:layout_width="60dp"
+                                android:layout_height="43dp"
+                                android:background="@drawable/menu2"
+                                android:src="@drawable/sewa"></ImageButton>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="SEWA"
+                                android:textSize="8dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/menu2"
+                            android:elevation="30dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/daftarsewa"
+                                android:layout_width="60dp"
+                                android:layout_height="43dp"
+                                android:background="@drawable/menu2"
+                                android:src="@drawable/daftarsewa"></ImageButton>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Daftar Sewa"
+                                android:textSize="8dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="475dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/menu"
+                    android:elevation="15dp"
+                    android:orientation="vertical">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/slider"
+                        android:layout_width="334dp"
+                        android:layout_height="150dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        app:auto_cycle="true"
+                        app:corner_radius="5"
+                        app:delay="0"
+                        app:error_image="@drawable/grey"
+                        app:period="1000"
+                        app:placeholder="@drawable/grey"></com.denzcoskun.imageslider.ImageSlider>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/Putih"
+                        android:text="Paling Populer"
+                        android:textStyle="bold" />
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="155dp"
+                        android:layout_marginHorizontal="7dp"
+
+                        android:layout_marginTop="15dp">
+                        ">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/border">
+
+                                <ImageView
+                                    android:layout_width="198dp"
+                                    android:layout_height="101dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:src="@drawable/avanza1" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+
+                                    android:text="@string/Avanza" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/border">
+
+                                <ImageView
+                                    android:layout_width="198dp"
+                                    android:layout_height="101dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:src="@drawable/xpander" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="@string/Xpander" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="15dp"
+                                android:background="@drawable/border">
+
+                                <ImageView
+                                    android:layout_width="198dp"
+                                    android:layout_height="101dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:src="@drawable/xpander" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="@string/Xpander" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hubungi Kami"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/Putih"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Email"
+                            android:textColor="@color/Putih"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"/>
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/wa"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+62 81327274406"
+                            android:textColor="@color/Putih"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
